@@ -42,6 +42,7 @@ nav:
     - 'challenge/email-reply-00.md'
   - CA:
     - 'ca/index.md'
+    - 'ca/sslcom.md'
     - 'ca/letsencrypt.md'
     - 'ca/pebble.md'
   - Development:

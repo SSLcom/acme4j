@@ -29,7 +29,7 @@ import org.junit.jupiter.api.Test;
 public class SslComAcmeProviderTest {
 
     private static final String PROD_DIRECTORY_URL = "https://acme.ssl.com/sslcom-dv-ecc";
-    private static final String STAGING_DIRECTORY_URL = "https://acme.ssl.com/sslcom-dv-ecc";
+    private static final String STAGING_DIRECTORY_URL = "https://acme-try.ssl.com/sslcom-dv-ecc";
 
     /**
      * Tests if the provider accepts the correct URIs.

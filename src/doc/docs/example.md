@@ -24,7 +24,7 @@ You can run the `ClientTest` class in your IDE, giving the domain names to be re
 mvn exec:java -Dexec.args="example.com example.org"
 ```
 
-It is safe to run the example in the default configuration. The domains will be registered with the _Let's Encrypt staging server_ via HTTP challenges. The generated certificates are test certificates that are not suited for production use, as they will be rejected by all standard browsers.
+It is safe to run the example in the default configuration. The domains will be registered with the _SSL.com_ via HTTP challenges. The generated certificates are test certificates that are not suited for production use, as they will be rejected by all standard browsers.
 
 ## Invocation
 
@@ -64,9 +64,9 @@ public void fetchCertificate(Collection<String> domains)
     // Load the user key file. If there is no key file, create a new one.
     KeyPair userKeyPair = loadOrCreateUserKeyPair();
 
-    // Create a session for Let's Encrypt.
-    // Use "acme://letsencrypt.org" for production server
-    Session session = new Session("acme://letsencrypt.org/staging");
+    // Create a session for SSL.com.
+    // Use "acme://ssl.com" for production server
+    Session session = new Session("acme://ssl.com");
 
     // Get the Account.
     // If there is no account yet, create a new one.

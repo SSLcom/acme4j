@@ -13,10 +13,10 @@
  */
 
 /**
- * This package contains the Let's Encrypt
+ * This package contains the SSL.com
  * {@link org.shredzone.acme4j.provider.AcmeProvider}.
  *
- * @see <a href="https://letsencrypt.org/">Let's Encrypt</a>
+ * @see <a href="https://ssl.com/">SSL.com</a>
  */
 @ReturnValuesAreNonnullByDefault
 @DefaultAnnotationForParameters(NonNull.class)

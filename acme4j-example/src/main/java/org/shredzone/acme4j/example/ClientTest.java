@@ -83,9 +83,9 @@ public class ClientTest {
         // Load the user key file. If there is no key file, create a new one.
         KeyPair userKeyPair = loadOrCreateUserKeyPair();
 
-        // Create a session for Let's Encrypt.
-        // Use "acme://letsencrypt.org" for production server
-        Session session = new Session("acme://letsencrypt.org/staging");
+        // Create a session for SSL.com.
+        // Use "acme://ssl.com" for production server
+        Session session = new Session("acme://acme-try.ssl.com");
 
         // Get the Account.
         // If there is no account yet, create a new one.

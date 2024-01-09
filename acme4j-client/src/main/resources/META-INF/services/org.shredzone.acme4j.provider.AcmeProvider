@@ -1,5 +1,5 @@
 
-# SSL.com: https://www.ssl.com
+# SSL.com: https://ssl.com
 org.shredzone.acme4j.provider.sslcom.SslComAcmeProvider
 
 # Let's Encrypt: https://letsencrypt.org
