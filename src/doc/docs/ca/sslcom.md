@@ -1,4 +1,4 @@
-# Let's Encrypt
+# SSL.com
 
 Web site: [SSL.com](https://ssl.com)
 
@@ -9,4 +9,4 @@ Web site: [SSL.com](https://ssl.com)
 
 ## Note
 
-* Let's Encrypt does not support `Account.getOrders()`. Invocation will throw an `AcmeNotSupportedException`.
+* SSL.com does not support `Account.getOrders()`. Invocation will throw an `AcmeNotSupportedException`.
