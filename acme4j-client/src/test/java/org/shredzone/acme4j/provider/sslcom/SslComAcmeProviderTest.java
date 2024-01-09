@@ -24,7 +24,7 @@ import org.assertj.core.api.AutoCloseableSoftAssertions;
 import org.junit.jupiter.api.Test;
 
 /**
- * Unit tests for {@link LetsEncryptAcmeProvider}.
+ * Unit tests for {@link SslComAcmeProviderProvider}.
  */
 public class SslComAcmeProviderTest {
 
@@ -36,7 +36,7 @@ public class SslComAcmeProviderTest {
      */
     @Test
     public void testAccepts() throws URISyntaxException {
-        var provider = new LetsEncryptAcmeProvider();
+        var provider = new SslComAcmeProviderProvider();
 
         try (var softly = new AutoCloseableSoftAssertions()) {
             softly.assertThat(provider.accepts(new URI("acme://ssl.com"))).isTrue();
@@ -53,7 +53,7 @@ public class SslComAcmeProviderTest {
      */
     @Test
     public void testResolve() throws URISyntaxException {
-        var provider = new LetsEncryptAcmeProvider();
+        var provider = new SslComAcmeProviderProvider();
 
         assertThat(provider.resolve(new URI("acme://ssl.com"))).isEqualTo(url(PROD_DIRECTORY_URL));
         assertThat(provider.resolve(new URI("acme://ssl.com/"))).isEqualTo(url(PROD_DIRECTORY_URL));

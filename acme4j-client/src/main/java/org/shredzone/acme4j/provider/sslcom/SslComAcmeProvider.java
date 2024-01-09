@@ -31,7 +31,7 @@ import org.shredzone.acme4j.provider.AcmeProvider;
  *
  * @see <a href="https://acme.ssl.com/">SSL.com</a>
  */
-public class SslComProvider extends AbstractAcmeProvider {
+public class SslComAcmeProvider extends AbstractAcmeProvider {
 
     private static final String PROD_DIRECTORY_URL = "https://acme.ssl.com/sslcom-dv-ecc";
     private static final String STAGING_DIRECTORY_URL = "https://acme.ssl.com/sslcom-dv-ecc";
