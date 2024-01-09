@@ -2,7 +2,7 @@
 
 The `email-reply-00` challenge permits to get end-user S/MIME certificates, as specified in [RFC 8823](https://tools.ietf.org/html/rfc8823).
 
-The CA must support issuance of S/MIME certificates. _Let's Encrypt_ does not currently support it.
+The CA must support issuance of S/MIME certificates. _SSL.com_ does not currently support it.
 
 !!! warning
     The support of this challenge is **experimental**. The implementation is only unit tested for compliance with the RFC, but is not integration tested yet. There may be breaking changes in this part of the API in future releases.

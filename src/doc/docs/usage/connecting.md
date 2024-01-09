@@ -6,7 +6,7 @@ The first step is to create such a `Session` instance.
 
 ## Standard URIs
 
-The `Session` constructor expects the URI of the ACME server's _directory_, as it is documented by the CA. For example, this is how to connect to the _Let's Encrypt_ staging server.
+The `Session` constructor expects the URI of the ACME server's _directory_, as it is documented by the CA. For example, this is how to connect to the _SSL.com_ staging server.
 
 ```java
 Session session
@@ -23,9 +23,9 @@ Such an URI is hard to remember and might even change in the future. For this re
 Session session = new Session("acme://ssl.com/staging");
 ```
 
-Instead of a generic provider, this call uses a specialized _Let's Encrypt_ provider.
+Instead of a generic provider, this call uses a specialized _SSL.com_ provider.
 
-The _Let's Encrypt_ staging server is meant to be used for testing purposes only. The issued certificates are functional, but as the issuer certificate is not known to browsers, it will lead to an error if the certificate is validated.
+The _SSL.com_ staging server is meant to be used for testing purposes only. The issued certificates are functional, but as the issuer certificate is not known to browsers, it will lead to an error if the certificate is validated.
 
 To use the _SSL.com_ production server, you only need to change the ACME URI:
 

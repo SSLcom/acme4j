@@ -6,8 +6,6 @@ ACME is a protocol that a certificate authority (CA) and an applicant can use to
 
 This Java client helps connecting to an ACME server, and performing all necessary steps to manage certificates.
 
-It is an independent open source implementation that is not affiliated with or endorsed by _Let's Encrypt_.
-
 The source code can be found at [GitHub](https://github.com/shred/acme4j) and is distributed under the terms of [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 Latest version: ![maven central](https://shredzone.org/maven-central/org.shredzone.acme4j/acme4j/badge.svg)
